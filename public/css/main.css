@@ -1,0 +1,534 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Banner */
+
+.banner {
+    display: flex;
+    position: relative;
+    height: 50vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner>form {
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner>div {
+    width: 100%;
+    height: 50vh;
+    background-image: url(https://cdn2.educacion2.com/wp-content/uploads/2017/03/profesor-particular-2.jpg);
+    background-size: cover;
+    background-position: -68px;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    transition: 1s;
+}
+
+.banner>form>input[type=text], .banner>form>select {
+    height: 51px;
+    border: 0;
+    width: 90%;
+    color: #ccc;
+    background-color: #FFF;
+    font-size: 1.4em;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.banner>form>select {
+    border-radius: 3px 3px 0px 0px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 3px 3px 0px 0px;
+}
+
+.banner>form>input[type=text] {
+    border-radius: 0px 0px 3px 3px;
+    margin-bottom: 15px;
+}
+
+.banner>form>input[type=submit] {
+    height: 51px;
+    border: 0;
+    width: 90%;
+    color: #FFF;
+    background-color: #308cca;
+    border-radius: 3px;
+    font-size: 1.4em;
+    box-sizing: border-box;
+}
+
+/* Fin banner */
+
+/* Barra de navegación */
+
+nav {
+    background-color: #03A9F4;
+    margin: 0;
+    padding: 0px 3%;
+    height: 65px;
+    display: flex;
+    align-items: center
+}
+
+header>nav i {
+    color: white;
+}
+
+nav>ul {
+    width: 100%;
+    padding: 0%;
+    list-style: none;
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>ul>div {
+    display: flex;
+    align-items: center;
+}
+
+div>li {
+    margin: 5px;
+    font-size: 21px;
+}
+
+body {
+    margin: 0;
+}
+
+.nav-a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* Fin barra de navegación */
+
+
+/* Footer */
+
+footer {
+    margin-top: 6vw;
+    padding: 0;
+    height: 45px;
+    align-items: center;
+    bottom: 0%;
+    width: 100%;
+}
+
+footer>ul {
+    background-color: #03A9F4;
+    width: 100%;
+    list-style: none;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 2em 0em;
+}
+
+footer>ul>li {
+    color: rgb(56, 56, 56);
+    margin: .9em;
+}
+
+footer>ul>li>a {
+    color: rgb(56, 56, 56);
+    text-decoration: none;
+}
+
+.redes {
+    list-style: none;
+    display: flex;
+}
+
+
+.iconoF{
+    padding: 0px 0px 0px 14px;
+    font-size: 2em;
+    text-decoration: none;
+}
+.iconoF>a{
+    color: rgb(56, 56, 56);
+
+}
+
+/* Fin footer */
+
+/* Pasos */
+
+.pasos {
+    background-color: #f8f8f8;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px 25px;
+}
+
+.pasos>article {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px 0px;
+}
+
+.pasos>h2 {
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    color: #308cca;
+}
+
+.pasos>article>h2 {
+    color: #bcbcbc;
+}
+
+.pasos>article>i {
+    font-size: 75px;
+    color: #3c3f4f;
+}
+
+/* Fin pasos */
+
+/* Categorias */
+
+.categoria {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px 10%;
+}
+
+.categoria>article {
+    width: 50%;
+    padding: 15px 5px;
+    box-sizing: border-box;
+    background-color: #348cca;
+    margin: 15px;
+    color: white;
+    border-radius: 6px;
+}
+
+.categoria>article>a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+/* Fin categorias */
+
+/* Comienzo de faq (en progreso) */
+
+section.faq {
+    margin-top: 2.1em;
+}
+section.faq > article{
+    box-sizing: border-box;
+    margin-bottom: 2em;
+    padding: 0 2vw;
+}
+section.faq > article > h1{
+    font-size: 1.5em;
+    margin: 1em .5em;
+}
+section.faq > section > article > h2{
+    font-size: 1.3em;
+    color: #3c3f4f;
+    margin: 1em .8em;
+}
+section.faq > section > article > h3 {
+    justify-content: left;
+    box-sizing: border-box;
+    font-size: 1em;
+    color: #3c3f4f;
+    padding: 0.3em 1em;
+    margin: 0em;
+    font-weight: 500
+}
+section.faq > section > article > h3.pregunta {
+    margin: 1em 0em .2em;
+    font-weight: bold;
+
+}
+
+/* Fin de faq (en progreso) */
+
+/* Login */
+
+.login-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 59vw;
+    background-color: #f0f0f0;
+    margin: 27px auto;
+    border-radius: 11px;
+    padding: 25px 0px;
+    box-sizing: border-box;
+}
+
+.login-form>form {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+
+.login-form>form>input[type=text],.login-form>form>input[type=password],.login-form>form>input[type=date],.login-form>form>input[type=email],.login-form>form>input[type=file],.login-form>form>textarea,.login-form>form>select{
+    background-color: #fff;
+    color: #000;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #3c3f4f;
+    margin: 10px 0px;
+}
+
+.login-form>form>h3 {
+    margin: 0px 0px 20px;
+}
+
+.login-form>form>input[type=submit] {
+    background-color: #40a9f4;
+    color: #fff;
+    padding: 8px;
+    border-radius: 3px;
+    border: 0px solid #3c3f4f;
+    margin: 10px 0px;
+    font-size: 1em;
+}
+
+.login-form>form>input[type=submit]:hover {
+    background-color: #308cca;
+}
+
+/* End login */
+
+main {
+    min-height: calc(70vh - 68px);
+}
+
+main>div {
+    width: 100%;text-align: center;
+}
+
+.div-cat {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+}
+li>img{
+    width: 150px;
+}
+
+/* Pagina Profile */
+
+article.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+article.perfil>ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+/* Fin pagina Perfil*/
+
+.nombre-de-pag{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.text-red {
+    color: red;
+}
+
+.organizadorDeMaterias{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 30vw;
+    flex-wrap: wrap;
+}
+
+
+@media only screen and (min-width: 600px) {
+
+    /* Home page */
+    .banner {
+        height: 80vh;
+    }
+
+    .banner>div {
+        height: 80vh;
+        background-position-x: 0px;
+        -webkit-filter: blur(1.3px);
+        -moz-filter: blur(1.3px);
+        -o-filter: blur(1.3px);
+        -ms-filter: blur(1.3px);
+        filter: blur(1.3px);
+    }
+
+    .banner>form {
+        flex-direction: row;
+        align-items: normal;
+        width: 90%;
+        bottom: 10%;
+    }
+    .banner>form>select {
+        border-radius: 3px 0px 0px 3px;
+        -webkit-appearance: none;
+        -webkit-border-radius: 3px 0px 0px 3px;
+    }
+
+    .banner>form>input[type=text] {
+        border-radius: 0px 3px 3px 0px;
+        margin-right: 15px;
+        margin-bottom: 0px;
+    }
+
+    .pasos {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    /*Fin Home page */
+
+    /*Faq page */
+
+    section.faq>section>article{
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+    }
+    section.faq>section{
+        padding: 0em 2vw;
+        display: flex;
+    }
+
+    /* Fin Faq page */
+
+    /* footer */
+
+    footer>ul {
+        flex-direction: row;
+    }
+
+    /* fin footer */
+
+
+    /* Categorias */
+
+    .categoria>article {
+        width: 30%;
+    }
+
+    /* Fin categorias */
+
+    /* Login */
+
+
+    /* Fin login */
+    .organizadorDeMaterias{
+
+        flex-direction: row;
+        width: 60vw;
+        justify-content: space-between;
+
+    }
+}
+/* Profesores por materias */
+.professors>li{
+    display: grid;
+    justify-content: center;
+    width: 30vw;
+    background-color: #d4d0d0;
+    margin: 27px auto;
+    border-radius: 11px;
+    padding: 25px 0px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.professors{
+    display: flex;
+    justify-content: space-around;
+    padding: unset;
+    flex-wrap: wrap
+}
+/*Fin profesores por materias */
+
+/* Profesor vista alumno*/
+.organizadorViewProfesor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fotoProfesor{
+    height: 10vw;
+    width: 10vw;
+    padding: 2vw 0 0;
+
+}
+
+.cajaMaterias{
+    width: 7.5vw;
+}
+.cajaDetalle{
+    display: flex;
+    width: 30vw;
+    justify-content: space-around;
+}
+.cajaInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    width: 60vw;
+    margin: 0 20vw;
+    padding: 10px;
+    background-color: #d4d0d0;
+}
+.left{
+    justify-content: left;
+}
+
+/* Fin de profesor vista alumno*/
+
+@media only screen and (min-width: 1000px){
+
+    .login-form {
+        width:60vw;
+    }
+
+}
+
